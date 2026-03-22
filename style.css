@@ -1,0 +1,93 @@
+/* Основни настройки */
+body {
+    font-family: "Georgia", serif;
+    background: #0e0e15;
+    color: #e6e6f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Заглавия */
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #c7b8ff;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 40px;
+    color: #d8cfff;
+}
+
+/* Основно съдържание */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Изображения */
+img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(180, 150, 255, 0.4);
+    margin: 25px 0;
+}
+
+/* Навигация */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+nav a {
+    color: #bfaaff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    padding: 8px 14px;
+    border: 1px solid #bfaaff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #bfaaff;
+    color: #0e0e15;
+}
+
+/* Секции */
+section {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 20px 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px rgba(150, 120, 255, 0.15);
+}
+
+/* Хедър */
+header {
+    padding: 20px 0 10px;
+    background: linear-gradient(to bottom, #1a1a27, #0e0e15);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
